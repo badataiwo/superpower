@@ -1,5 +1,7 @@
 # https://www.playframework.com/documentation/latest/ScalaI18N
 
+planet = earth
+
 opening.stmt = As you can see below, your secret identities are listed, \
 along with your special superpower; however our files were corrupted and we need \
 your updated information. We would like to learn more about your talents. Can you \
