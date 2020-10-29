@@ -1,0 +1,11 @@
+# https://www.playframework.com/documentation/latest/ScalaI18N
+
+opening.stmt = As you can see below, your secret identities are listed, \
+along with your special superpower; however our files were corrupted and we need \
+your updated information. We would like to learn more about your talents. Can you \
+update your information and create your own page and add a link to it here.
+
+lincoln.power1 = Patience
+lincoln.power2 = Perfect Memory
+lincoln.weak1 = Spicy Food
+lincoln.weak2 = Cloudy weather
