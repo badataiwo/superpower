@@ -24,7 +24,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     appLogger.debug(s"Loading page: $name")
     
     name match {
-      //case "lincoln"  => Ok(views.html.lincoln(name.capitalize))
+      case "lincoln"  => Ok(views.html.lincoln(name.capitalize))
       case _          => Ok(views.html.index("Superheros"))
     }
   }

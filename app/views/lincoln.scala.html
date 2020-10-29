@@ -1,0 +1,43 @@
+@(name: String)(implicit messages: Messages)
+@main(name) {
+
+<div class="container">
+	<div class="jumbotron">
+  		<h1 class="display-4">Lincoln Matra</h1>
+  		<p class="lead">Hello my name is Professor Matra</p>
+  		<hr class="my-4">
+  		<p>
+  			My special gift is time management.  Somehow time seems to get away from most normal people.
+  			However, I can freeze it, and move backwards or forwards in time.  When time is against you,
+  			I'm the one you call.
+  			<br>
+  			<br>
+  			
+  			<button type="button" class="btn btn-secondary btn-sm">
+  				Secondary skills: <span class="badge badge-light">2</span>
+  				<span class="sr-only">unread messages</span>
+			</button>
+  			<ul>
+  				<li>@messages("lincoln.power1")
+  				<li>@messages("lincoln.power2")
+  			</ul>
+  			
+  			<button type="button" class="btn btn-danger btn-sm">
+  				Weaknesses: <span class="badge badge-light">2</span>
+  				<span class="sr-only">unread messages</span>
+			</button>
+  			<ul>
+  				<li>@messages("lincoln.weak1")
+  				<li>@messages("lincoln.weak2")
+  			</ul>
+  		</p>
+  		<div class="text-center">
+  			<img class="rounded" height=400 width=400 src="@routes.Assets.versioned("images/lincoln.jpg")" alt="">
+        </div>
+  		
+	</div>
+</div>
+
+	
+  
+}
