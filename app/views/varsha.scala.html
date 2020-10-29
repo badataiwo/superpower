@@ -1,0 +1,40 @@
+@(name: String)(implicit messages: Messages)
+@main(name) {
+
+<div class="container">
+	<div class="jumbotron">
+  		<h1 class="display-4">Varsha Varadarajan</h1>
+  		<p class="lead">Hi my name is Varsha</p>
+  		<hr class="my-4">
+  		<p>
+  			My special gift is memory erasure. You are - what people remember of you! Come to think of it, you can live a new life, 
+  			start a new journey, meet a person again a whole new time, right from the start, if you had the ability to erase their memory of you.
+  			It's tricky, but super-powerful! :D
+  			<br>
+  			<br>
+  			
+  			<button type="button" class="btn btn-secondary btn-sm">
+  				Secondary skills: <span class="badge badge-light">2</span>
+  				<span class="sr-only">unread messages</span>
+			</button>
+  			<ul>
+  				<li>@messages("varsha.power1")
+  				<li>@messages("varsha.power2")
+  			</ul>
+  			
+  			<button type="button" class="btn btn-danger btn-sm">
+  				Weaknesses: <span class="badge badge-light">1</span>
+  				<span class="sr-only">unread messages</span>
+			</button>
+  			<ul>
+  				<li>@messages("varsha.weak1")
+  			</ul>
+  		</p>
+  		<div class="text-center">
+  			<img class="rounded" height=400 width=400 src="@routes.Assets.versioned("images/varsha.jpg")" alt="">
+        </div>
+  		
+	</div>
+</div>
+
+}
