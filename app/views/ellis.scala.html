@@ -1,0 +1,42 @@
+@(name: String)(implicit messages: Messages)
+@main(name) {
+
+<div class="container">
+	<div class="jumbotron">
+  		<h1 class="display-4">Ellis Yoder</h1>
+  		<p class="lead">Hello, my name is Ellis!</p>
+  		<hr class="my-4">
+  		<p>
+  			My superpower is teleportation. I can go from one side of the globe to the other
+  			in the blink of an eye. One second I'm there, the next I'm not!
+  			<br>
+  			<br>
+  			
+  			<button type="button" class="btn btn-secondary btn-sm">
+  				Secondary skills: <span class="badge badge-light">2</span>
+  				<span class="sr-only">unread messages</span>
+			</button>
+  			<ul>
+  				<li>@messages("ellis.power1")
+  				<li>@messages("ellis.power2")
+  			</ul>
+  			
+  			<button type="button" class="btn btn-danger btn-sm">
+  				Weaknesses: <span class="badge badge-light">2</span>
+  				<span class="sr-only">unread messages</span>
+			</button>
+  			<ul>
+  				<li>@messages("ellis.weak1")
+  				<li>@messages("ellis.weak2")
+  			</ul>
+  		</p>
+  		<div class="text-center">
+  			<img class="rounded" height=500 width=400 src="@routes.Assets.versioned("images/ellis.jpg")" alt="">
+        </div>
+          		
+	</div>
+</div>
+
+	
+  
+}
