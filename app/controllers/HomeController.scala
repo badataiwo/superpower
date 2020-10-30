@@ -28,6 +28,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
       case "taiwo"   => Ok(views.html.taiwo(name.capitalize))
       case "varsha"  => Ok(views.html.varsha(name.capitalize))
       case "ellis"   => Ok(views.html.ellis(name.capitalize))
+      case "lares"   => Ok(views.html.lares(name.capitalize))
       case _          => Ok(views.html.index("Superheros"))
     }
   }
