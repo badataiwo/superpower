@@ -26,4 +26,23 @@ taiwo.weak2 = Cloudy weather
 varsha.power1 = Empathy
 varsha.power2 = Commitment
 varsha.weak1 = Fresh new books
+<<<<<<< HEAD
 >>>>>>> 132f5434971ff0cc3911d69ad2c8182da4a50b6c
+=======
+
+ellis.power1 = Eidetic Memory
+ellis.power2 = Golf, if that''s useful somehow
+ellis.weak1 = Humidity
+ellis.weak2 = The Detroit Lions :(
+
+lares.power1 = Humor
+lares.power2 = Warm Hearted
+lares.weak1 = Start Conversation
+lares.weak2 = Make Decisions
+
+
+ian.power1 = Waking up early
+ian.power2 = Patient
+ian.weak1 = Not exercising
+ian.weak2 = Studying
+>>>>>>> d3e0f1e33cbdf6f8c801892b8f9fcb7e960cb105
