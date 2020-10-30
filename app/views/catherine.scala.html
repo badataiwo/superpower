@@ -1,0 +1,43 @@
+@(name: String)(implicit messages: Messages)
+@main(name) {
+
+<div class="container">
+	<div class="jumbotron">
+  		<h1 class="display-4">Catherine Xiong</h1>
+  		<p class="lead">Hello my name is Catherine Xiong</p>
+  		<hr class="my-4">
+  		<p>
+  			My special gift is healing. Healing people with different diseases and self-healing. 
+  			When you want try extreme sports but are afraid of injuries, I am your gal. :-)  
+  			<br>
+  			<br>
+  			
+  			<button type="button" class="btn btn-secondary btn-sm">
+  				Secondary skills: <span class="badge badge-light">2</span>
+  				<span class="sr-only">unread messages</span>
+			</button>
+  			<ul>
+  				<li>@messages("catherine.power1")
+  				<li>@messages("catherine.power2")
+  			</ul>
+  			
+  			<button type="button" class="btn btn-danger btn-sm">
+  				Weaknesses: <span class="badge badge-light">2</span>
+  				<span class="sr-only">unread messages</span>
+			</button>
+  			<ul>
+  				<li>@messages("catherine.weak1")
+  				<li>@messages("catherine.weak2")
+  			</ul>
+  		</p>
+  		<div class="text-center">
+  			<img class="rounded" height=400 width=400 src="@routes.Assets.versioned("images/catherine.png")" alt="">
+        </div>
+  		
+	</div>
+</div>
+
+	
+  
+}
+
