@@ -17,13 +17,12 @@ catherine.power2 = Perfect Memory
 catherine.weak1 = Puppy
 catherine.weak2 = Cloudy Weather
 
-=======
+
 taiwo.power1 = Patience
-<<<<<<< HEAD
 taiwo.power2 = Smiles
 taiwo.weak1 = Sweet items
 taiwo.weak2 = Cold weather
-=======
+
 taiwo.power2 = Perfect Memory
 taiwo.weak1 = Spicy Food
 taiwo.weak2 = Cloudy weather
@@ -31,9 +30,7 @@ taiwo.weak2 = Cloudy weather
 varsha.power1 = Empathy
 varsha.power2 = Commitment
 varsha.weak1 = Fresh new books
-<<<<<<< HEAD
->>>>>>> 132f5434971ff0cc3911d69ad2c8182da4a50b6c
-=======
+
 
 ellis.power1 = Eidetic Memory
 ellis.power2 = Golf, if that''s useful somehow
@@ -50,5 +47,3 @@ ian.power1 = Waking up early
 ian.power2 = Patient
 ian.weak1 = Not exercising
 ian.weak2 = Studying
->>>>>>> d3e0f1e33cbdf6f8c801892b8f9fcb7e960cb105
->>>>>>> f9c8b21e182453aea81c27b4aeb885ea5c7dbd18
